@@ -49,9 +49,12 @@ if funded by the Alphabet Soup.
 -   **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
 
     Following parameters were used for the base model:
--   Number of neurons: 8, 5, and 1 neurons respectively for layer1, layer2 and layer3
--   Number of layers: 2 hidden layer + 1 output layer
--   Activation functions: `relu`, `relu` and `sigmoid` respectively for layer1, layer2 and layer3
+
+    -   Number of neurons: 8, 5, and 1 neurons respectively for layer1, layer2 and layer3
+
+    -   Number of layers: 2 hidden layer + 1 output layer
+    
+    -   Activation functions: `relu`, `relu` and `sigmoid` respectively for layer1, layer2 and layer3
 
     I chose the above activation function combinations as relu converges fast and requires fairly less amount of memory.
 
@@ -63,18 +66,18 @@ if funded by the Alphabet Soup.
 
     The following steps were taken to improve the model performance:
 
--   I observed that the columns 'STATUS' and 'SPECIAL_CONSIDERATIONS' was not having enough data for both classes of target,
+    -   I observed that the columns 'STATUS' and 'SPECIAL_CONSIDERATIONS' was not having enough data for both classes of target,
     so I tried dropping them in each of my optimization attempts.
 
--   I tried to decrease the number of neurons from 8 to 3 in the first layer.
+    -   I tried to decrease the number of neurons from 8 to 3 in the first layer.
 
--    I tried to change the # of bins in the 'APPLICATION_TYPE' and 'CLASSIFICATION' columns so as to distribute data points equally amongst
+    -    I tried to change the # of bins in the 'APPLICATION_TYPE' and 'CLASSIFICATION' columns so as to distribute data points equally amongst
     bins.
 
--   I even tried to change the activation functions from `relu` to `leaky_relu` but that did not help and I did not
+    -   I even tried to change the activation functions from `relu` to `leaky_relu` but that did not help and I did not
     record those observations in my attempts.
 
--   I also tried increasing the number of neurons from 4 to 8 in the second layer but that did not help and I did not
+    -   I also tried increasing the number of neurons from 4 to 8 in the second layer but that did not help and I did not
     record those observations in my attempts.
 
     ## Summary
