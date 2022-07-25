@@ -56,9 +56,11 @@ if funded by the Alphabet Soup.
     I chose the above activation function combinations as relu converges fast and requires fairly less amount of memory.
 
 -   **Were you able to achieve the target model performance?**
+
     No, I was not able to achieve the target model performance.
 
 -   **What steps did you take to try and increase model performance?**
+
     The following steps were taken to improve the model performance:
 
 -   I observed that the columns 'STATUS' and 'SPECIAL_CONSIDERATIONS' was not having enough data for both classes of target,
