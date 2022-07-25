@@ -47,9 +47,10 @@ if funded by the Alphabet Soup.
 ### Compiling, Training, and Evaluating the Model
 
 -   **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
+
     Following parameters were used for the base model:
-- # of neurons: 8, 5, and 1 neurons respectively for layer1, layer2 and layer3
-- # of layers: 2 hidden layer + 1 output layer
+-   Number of neurons: 8, 5, and 1 neurons respectively for layer1, layer2 and layer3
+-   Number of layers: 2 hidden layer + 1 output layer
 -   Activation functions: `relu`, `relu` and `sigmoid` respectively for layer1, layer2 and layer3
 
     I chose the above activation function combinations as relu converges fast and requires fairly less amount of memory.
