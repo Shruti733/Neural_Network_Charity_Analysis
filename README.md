@@ -53,7 +53,7 @@ if funded by the Alphabet Soup.
     -   Number of neurons: 8, 5, and 1 neurons respectively for layer1, layer2 and layer3
 
     -   Number of layers: 2 hidden layer + 1 output layer
-    
+
     -   Activation functions: `relu`, `relu` and `sigmoid` respectively for layer1, layer2 and layer3
 
     I chose the above activation function combinations as relu converges fast and requires fairly less amount of memory.
@@ -80,12 +80,12 @@ if funded by the Alphabet Soup.
     -   I also tried increasing the number of neurons from 4 to 8 in the second layer but that did not help and I did not
     record those observations in my attempts.
 
-    ## Summary
+## Summary
 
-    We used the `accuracy` metric to measure the performance of the model. The maximum accuracy of the model that was achieved in my attempts was
-    `0.7288`. The number of input parameters considered for the model seem to be correct and it is just that the parameters used to compile the model
-    can be tuned a little more to achieve higher performance.
+We used the `accuracy` metric to measure the performance of the model. The maximum accuracy of the model that was achieved in my attempts was
+`0.7288`. The number of input parameters considered for the model seem to be correct and it is just that the parameters used to compile the model
+can be tuned a little more to achieve higher performance.
 
-    We can also make use of a `random forest` model for this binary classification. I recommend to use a random forest model as it adds additional
-    randomness to the model while growing the trees instead of searching for the most important feature while splitting the node it searches for the
-    best feature among a random subset of features. This results in a wide diversity that generally results in a better model. 
+We can also make use of a `random forest` model for this binary classification. I recommend to use a random forest model as it adds additional
+randomness to the model while growing the trees instead of searching for the most important feature while splitting the node it searches for the
+best feature among a random subset of features. This results in a wide diversity that generally results in a better model. 
